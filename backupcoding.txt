@@ -1,0 +1,8 @@
+package.json
+
+cara1
+"build": "tailwindcss -i ./src/style.css -o ./public/style.css",
+"watch": "tailwindcss -i ./src/style.css -o ./public/style.css --watch"
+
+cara2
+"build:tailwinds": "tailwind build src/style.css -o public/style.css"
