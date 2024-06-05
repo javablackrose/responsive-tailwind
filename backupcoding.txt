@@ -6,3 +6,5 @@ cara1
 
 cara2
 "build:tailwinds": "tailwind build src/style.css -o public/style.css"
+
+content: ['./public/*.{html,js}'],
