@@ -12,6 +12,7 @@
 </head>
 
 <body class="font-Poppins">
+    <!-- header -->
     <header>
         <nav class="container flex items-start py-4 mt-4 sm:mt-12">
             <div class="py-1">
@@ -27,7 +28,64 @@
                 <i class="text-2xl fa-solid fa-bars"></i>
             </div>
         </nav>
-        <!-- header -->
+        <!-- <nav class="bg-bookmarkpurple"> -->
+            <!-- container2 -->
+            <!-- <div class="container flex flex-row py-2 px-4 mx-auto"> -->
+                <!-- logos -->
+                <!-- <a href="#" class="inline-flex p-2 text-white text-xl font-bold uppercase tracking-wider">customnav</a> -->
+                <!-- brands -->
+                <!-- <button
+                    class="lg:hidden flex items-center justify-center text-white h-10 w-10 ml-auto rounded-md outline-none focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>      -->
+                <!-- menus desktop -->
+                <!-- <div class="sm:hidden lg:inline-flex lg:w-auto mt-2 lg:mt-0">
+                    <ul class="flex flex-col lg:flex-row px-4 lg:space-x-2">
+                        <li>
+                            <a href="#"
+                                class="flex px-4 py-2 font-medium text-white bg-bookmarkblue hover:bg-bookmarkblue rounded-md">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="flex px-4 py-2 font-medium text-white hover:bg-bookmarkblue rounded-md">Project</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="flex px-4 py-2 font-medium text-white hover:bg-bookmarkblue rounded-md">About</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="flex px-4 py-2 font-medium text-white hover:bg-bookmarkblue rounded-md">dashboard</a>
+                        </li>
+                    </ul>
+                </div>           
+            </div> -->
+            <!-- menus mobile-->
+            <!-- <div class="w-full lg:hidden lg:w-auto mt-2 lg:mt-0">
+                <ul class="flex flex-col lg:flex-row lg:space-x-2">
+                    <li>
+                        <a href="#"
+                            class="flex px-4 py-2 font-medium text-white bg-bookmarkblue hover:bg-bookmarkblue rounded-md">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="flex px-4 py-2 font-medium text-white hover:bg-bookmarkblue rounded-md">Project</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="flex px-4 py-2 font-medium text-white hover:bg-bookmarkblue rounded-md">About</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="flex px-4 py-2 font-medium text-white hover:bg-bookmarkblue rounded-md">dashboard</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> -->
     </header>
     <!-- hero -->
     <section class="relative">
@@ -228,6 +286,18 @@
                     <i class="text-bookmarkpurple fa-solid fa-chevron-down"></i>
                 </div>
                 <div class="flex items-center border-b py-4">
+                    <span class="flex-1">Whats is Bookmark?</span>
+                    <i class="cursor-pointer text-bookmarkpurple fa-solid fa-chevron-down"></i>
+                    <div id="menu"
+                        class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                        <a href="#">Pricing</a>
+                        <a href="#">Product</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Carrers</a>
+                        <a href="#">Community</a>
+                    </div>
+                </div>
+                <div class="flex items-center border-b py-4">
                     <span class="flex-1">How can i request a new browser?</span>
                     <i class="text-bookmarkpurple fa-solid fa-chevron-down"></i>
                 </div>
@@ -268,21 +338,19 @@
             <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
                 <img src="./img/logo-bookmark-white.png" alt="">
                 <ul class="flex text-white uppercase gap-12 text-xs">
-                    <ul
-                        class="flex text-white uppercase gap-12 text-xs">
+                    <ul class="flex text-white uppercase gap-12 text-xs">
                         <li class="cursor-pointer">Features</li>
                         <li class="cursor-pointer">Pricing</li>
                         <li class="cursor-pointer">Contact</li>
                     </ul>
             </div>
-            <div class="flex gap-10 mt-12 md:mt-0">                
+            <div class="flex gap-10 mt-12 md:mt-0">
                 <i class="cursor-pointer text-white text-2xl fa-brands fa-instagram"></i>
                 <i class="cursor-pointer text-white text-2xl fa-brands fa-tiktok"></i>
             </div>
         </div>
-
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
